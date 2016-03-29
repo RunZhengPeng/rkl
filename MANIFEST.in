@@ -1,0 +1,10 @@
+include AUTHORS
+include CHANGES.rst
+include LICENSE
+include Makefile
+include README.rst
+include versioneer.py
+include rkl/_version.py
+graft doc
+prune doc/build
+prune doc/source/generated
